@@ -1,4 +1,17 @@
+<div class="site-title">
+  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" class="site-logo">
+  <span>Angular & AngularJS Explained</span>
+</div>
 <main class="angular-landing">
+  <section class="about">
+    <h2>What is Angular?</h2>
+    <p>
+      <strong>Angular</strong> is a robust, open-source web application framework developed and maintained by Google. It enables developers to build dynamic, single-page applications (SPAs) with ease, using TypeScript and a component-based architecture. Angular is designed for scalability, maintainability, and performance, making it a top choice for enterprise-level projects and startups alike.
+    </p>
+    <p>
+      Angular provides a complete solution for building web apps, including powerful tools for routing, forms, HTTP communication, state management, and more. Its modular structure and dependency injection system make it easy to organize and test your code.
+    </p>
+  </section>
   <div class="dark-toggle" title="Toggle dark mode (UI only)">
     <svg viewBox="0 0 24 24"><path d="M12 2a1 1 0 0 1 1 1v1a8 8 0 1 1-8 8H4a1 1 0 0 1-1-1A9 9 0 1 0 12 2z"/></svg>
   </div>
@@ -6,13 +19,36 @@
     <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" class="hero-logo">
     <h1>Welcome to Angular</h1>
     <p class="subtitle">A modern framework for building powerful web applications</p>
+    <blockquote class="quote">“Angular is not just a framework, it’s a complete platform for building scalable, maintainable, and high-performance web apps.”</blockquote>
   </section>
 
-  <section class="about">
-    <h2>What is Angular?</h2>
+  <section class="ecosystem">
+    <h2>The Angular Ecosystem</h2>
     <p>
-      <strong>Angular</strong> is a platform and framework for building single-page client applications using HTML and TypeScript. Developed and maintained by Google, Angular provides a robust set of tools for building scalable, maintainable, and high-performance web apps.
+      Angular is more than just a framework—it's an entire ecosystem. With tools like <strong>Angular CLI</strong> for rapid project scaffolding, <strong>Angular Material</strong> for beautiful UI components, and <strong>RxJS</strong> for reactive programming, Angular empowers developers to build feature-rich applications efficiently.
     </p>
+    <ul>
+      <li><strong>Angular CLI:</strong> Command-line interface for generating, building, and testing Angular apps.</li>
+      <li><strong>Angular Material:</strong> A UI component library that follows Google’s Material Design guidelines.</li>
+      <li><strong>RxJS:</strong> A library for reactive programming using observables, making async code easier to manage.</li>
+      <li><strong>NgRx:</strong> State management inspired by Redux, for predictable state in large apps.</li>
+      <li><strong>Angular Universal:</strong> Server-side rendering for SEO and performance.</li>
+    </ul>
+  </section>
+
+  <section class="use-cases">
+    <h2>Where is Angular Used?</h2>
+    <p>
+      Angular powers web applications for some of the world’s largest companies, including Google, Microsoft, Deutsche Bank, and Upwork. It’s ideal for:
+    </p>
+    <ul>
+      <li>Enterprise dashboards and admin panels</li>
+      <li>E-commerce platforms</li>
+      <li>Real-time data visualization apps</li>
+      <li>Progressive Web Apps (PWAs)</li>
+      <li>Content management systems (CMS)</li>
+      <li>And much more!</li>
+    </ul>
   </section>
 
   <section class="why-angular">
@@ -23,6 +59,8 @@
       <li>Comprehensive tooling with Angular CLI</li>
       <li>Active community and long-term support from Google</li>
       <li>Built-in support for testing, forms, HTTP, and more</li>
+      <li>Excellent documentation and learning resources</li>
+      <li>Strong ecosystem and third-party integrations</li>
     </ul>
   </section>
 
@@ -60,6 +98,7 @@
         <td>Actively developed</td>
       </tr>
     </table>
+    <p class="vs-note">Angular (2+) is a complete rewrite of AngularJS, offering better performance, modern features, and a more maintainable codebase.</p>
   </section>
 
   <section class="getting-started">
@@ -68,9 +107,10 @@
       <li>Install Node.js and npm</li>
       <li>Install Angular CLI: <code>npm install -g &#64;angular/cli</code></li>
       <li>Create a new project: <code>ng new my-app</code></li>
-      <li>Run the app: <code>cd my-app && ng serve</code></li>
+      <li>Run the app: <code>cd my-app &amp;&amp; ng serve</code></li>
       <li>Open <a href="http://localhost:4200" target="_blank">http://localhost:4200</a> in your browser</li>
     </ol>
+    <p class="tip">Tip: Explore <strong>Angular.dev</strong> for interactive tutorials and hands-on learning!</p>
   </section>
 
   <section class="resources">
@@ -80,7 +120,14 @@
       <li><a href="https://angular.dev/" target="_blank">Angular.dev Tutorials</a></li>
       <li><a href="https://blog.angular.io/" target="_blank">Angular Blog</a></li>
       <li><a href="https://github.com/angular/angular" target="_blank">Angular on GitHub</a></li>
+      <li><a href="https://material.angular.io/" target="_blank">Angular Material</a></li>
+      <li><a href="https://rxjs.dev/" target="_blank">RxJS Docs</a></li>
+      <li><a href="https://ngrx.io/" target="_blank">NgRx State Management</a></li>
     </ul>
   </section>
-</main>
-<button class="fab-top" title="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
+
+  <footer class="footer">
+    <p>Ready to build something amazing? <strong>Start your Angular journey today!</strong></p>
+    <p class="footer-note">&copy; 2024 Angular Explained. Not affiliated with Google.</p>
+  </footer>
+  <button class="fab-top" title="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
