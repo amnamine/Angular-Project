@@ -1,0 +1,103 @@
+.angular-landing {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #22223b;
+  background: #f8f9fa;
+  padding: 0 1rem 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 2.5rem 0 1.5rem 0;
+}
+.hero-logo {
+  width: 90px;
+  margin-bottom: 1rem;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #c3002f;
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: #4a4e69;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1.5rem 1.25rem;
+}
+section h2 {
+  color: #c3002f;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.why-angular ul {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+
+.angular-vs-angularjs table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background: #f1f1f1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.angular-vs-angularjs th, .angular-vs-angularjs td {
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+.angular-vs-angularjs th {
+  background: #c3002f;
+  color: #fff;
+  font-weight: 600;
+}
+.angular-vs-angularjs tr:last-child td {
+  border-bottom: none;
+}
+
+.getting-started code {
+  background: #e9ecef;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+.resources li {
+  margin-bottom: 0.5rem;
+}
+.resources a {
+  color: #c3002f;
+  text-decoration: none;
+  font-weight: 500;
+}
+.resources a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .angular-landing {
+    padding: 0 0.25rem 1rem 0.25rem;
+  }
+  section {
+    padding: 1rem 0.5rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
